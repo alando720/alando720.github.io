@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<!--
+Program: Patient registration form 
+Author: Alan Do
+Date: 2024-02-14
+Ver: 1.0
+Description: This is a patient registration form for NewLife Medical Clinic. 
+
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <title>NewLife Medical Patient Registration Form</title>
+
