@@ -26,12 +26,25 @@ Description: This is a patient registration form for NewLife Medical Clinic.
               </tr>
           </tbody>
     <h1>Patient Registration Form</h1>
-    <form name='registration' onSubmit="return formValidation();">
-      <body>
-        <ul>
-          <li><label for="name">First MI Last Name</label></li>
-        </ul>
-          
+    <div id="body"
+      <form name='registration' onSubmit="return formValidation();">
+        <table class="form">
+          <tbody>
+            <tr class="form">
+              <td align="right">
+                <label for="firstname">First</label>
+                <label for="middleinit">MI</label>
+                <label for="lastname">Last</label>
+              </td>
+              <td>
+                <input type="text" size="25" maxlength="30" id="firstname" name="firstname" required oninput="this.setCustomValidity('')"
+                  placeholder="(req'd)">
+                <input type="text" size="1" maxlength="1" id="middleinit" name="middleinit" placeholder="X">
+                <input type="text" size="20" maxlength="30" id="lastname" name="lastname" required oninvalid="this.setCustomValidity('Last Name is required')" oninput="this.setCustomValidity('')" placeholder="(req'd)">
+                
+              </td>
+          </tbody>
+      
           
         
 
