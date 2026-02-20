@@ -38,7 +38,7 @@ Description: Homework 1 Patient Registration Form
       <div class="format">
         <table>
           <tr>
-            <th colspan="4">Create Patine Account</th>
+            <th colspan="4">Create Patient Account</th>
           </tr>
           <tr>
              <td class="td1"><label for="firstname">First Name</label></td>
@@ -51,6 +51,63 @@ Description: Homework 1 Patient Registration Form
                  required
                  title="Patient first name"
                  placeholder="Jane"
+             </td>
+          </tr>
+          <tr>
+             <td class="td1"><label for="middleinit">MI</label></td>
+             <td>
+                <input 
+                 type="text"
+                 name="middleinit"
+                 id="middleinit"
+                 maxlength="1"
+                 required
+                 title="Patient middle initial"
+                 placeholder="X"
+             </td>
+          </tr>
+          <tr>
+             <td class="td1"><label for="lastname">Last Name</label></td>
+             <td>
+                <input 
+                 type="text"
+                 name="lastname"
+                 id="lastname"
+                 maxlength="30"
+                 required
+                 title="Patient last name"
+                 placeholder="Doe"
+             </td>
+          </tr>
+
+          <tr>
+             <td class="td1"><label for="patientsex">Patient's Sex</label></td>
+             <td>
+                <input
+                 type="radio"
+                 id="s1"
+                 name="patientsex"
+                 value="Male"
+                 />
+                 Male
+             </td>
+              <td>
+                <input
+                 type="radio"
+                 id="s2"
+                 name="patientsex"
+                 value="Female"
+                 />
+                 Female
+             </td>
+              <td>
+                <input
+                 type="radio"
+                 id="s1"
+                 name="patientsex"
+                 value="Other"
+                 />
+                 Other
              </td>
           </tr>
         </table>
