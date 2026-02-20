@@ -282,7 +282,7 @@ Description: Homework 1 Patient Registration Form
             <th colspan="4"><hr></th>
           </tr>
            <tr>
-             <td class="td1"><label for="q1">Have you seen a doctor in the last 5 years?</label></td>
+             <td class="td1"><label for="q1">Have you seen a doctor <br>in the last 5 years?</label></td>
              <td>
                 <input
                  type="radio"
@@ -301,7 +301,7 @@ Description: Homework 1 Patient Registration Form
              </td>
           </tr>
 		  <tr>
-             <td class="td1"><label for="q2">Is there a history of serious illness in your family?</label></td>
+             <td class="td1"><label for="q2">Is there a history of serious<br> illness in your family?</label></td>
              <td>
                 <input
                  type="radio"
@@ -341,7 +341,7 @@ Description: Homework 1 Patient Registration Form
 
 		  <tr>
 			  <td class="td1" align="left">
-			  	<label for="notes">Are there any concerns about your health?</label>
+			  	<label for="notes">Are there any concerns <br>about your health?</label>
 			  </td>
 			  <td>
 				<textarea
@@ -353,6 +353,22 @@ Description: Homework 1 Patient Registration Form
 				title="Enter any concerns"
 				placeholder="Type Here"
 				></textarea>
+				<span id="description_text"></span>
+			  </td>
+		  </tr>
+
+		  <tr>
+			  <td class="td1"><label for="range">On a scale of 1 to 10 how likely <br>are you to recommend NewLife Medical?</label></td>
+			  <td>
+				  <input
+				  type="range"
+				  name="range"
+				  id="range"
+				  min="1"
+				  max="10"
+				  value="0"
+				  />
+				  <span id="rangeslider"></span>
 			  </td>
 		  </tr>
         </table>
