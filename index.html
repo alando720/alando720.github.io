@@ -3,57 +3,34 @@
 Program: Patient registration form 
 Author: Alan Do
 Date: 2024-02-14
+Date last updated: 2/20/2026
 Ver: 1.0
-Description: This is a patient registration form for NewLife Medical Clinic. 
+Description: Homework 1 Patient Registration Form
 -->
-<html lang = "en">
+ <html lang = "en">
   <head>
-    <meta charset="utf-8">
-    <title>NewLife Medical Patient Registration Form</title>
-    <meta name="keywords" content="example, NewLife Medical Patient Registration Form" />
-    <meta name="description" content="This document is a patient registration form. " />
-    <link rel='stylesheet' href='patient-registration-form-style.css' type='text/css' />
-    <script src="patent-registration-form.js"></script>
+      <link rel="stylesheet" href="stylesheet.css">
+      <title>NewLife Medical Clinic Patient Registration Form</title>
   </head>
-  <body onload="document.registration.userid.focus();">
-    <div id="header">
+  <body>
+      <header>
         <table width="100%">
-          <tbody>
-              <tr>
-                <td>
-                  <img src="download.png" alt="NewLife Medical Clinic Logo">
-                </td>
-                <td valign="top">NewLife Medical Clinic</td>
-                <td valign="bottom" align="right"></td>
-                  Today's date: 
-                  <span id="today">2/19/2026</span>
-              </tr>
-          </tbody>
-        </table>
-    </div>
-    <h1>New Life Patient Registration Form</h1>
-    <div id="body">
-      <form name='registration' onSubmit="return formValidation();">
-        <table class="form">
-          <tbody>
-            <tr class="form">
-              <td align="right">
-                <label for="firstname">First</label>
-                <label for="middleinit">MI</label>
-                <label for="lastname">Last</label>
-              </td>
-              <td>
-                <input type="text" size="25" maxlength="30" id="firstname" name="firstname" required oninput="this.setCustomValidity('')"
-                  placeholder="(req'd)">
-                <input type="text" size="1" maxlength="1" id="middleinit" name="middleinit" placeholder="X">
-                <input type="text" size="20" maxlength="30" id="lastname" name="lastname" required oninvalid="this.setCustomValidity('Last Name is required')" oninput="this.setCustomValidity('')" placeholder="(req'd)">
-                
-              </td>
-          </tbody>
-      
-          
-        
+        <tr>
+            <td valign="top" align="left" width="20%">
+                <div class="image">
+                    <img align="center" src="download.png" alt="New Life Medical Clinic Logo" width="70px" id="logo"/>
+                </div>
+            </td>  
 
-    
-    
+            <td>
+                <h2>NewLife Medical Clinic</h2>
+            </td>
+
+            <td valign="bottom" align="right" width="20%">
+                Today's Date: <span id="today"></span>
+            </td>
+        </tr>
+        </table>
+    </header>
   </body>
+</html>
