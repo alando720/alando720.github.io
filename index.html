@@ -51,6 +51,7 @@ Description: Homework 1 Patient Registration Form
                  required
                  title="Patient first name"
                  placeholder="Jane"
+                 />
              </td>
           </tr>
           <tr>
@@ -64,6 +65,7 @@ Description: Homework 1 Patient Registration Form
                  required
                  title="Patient middle initial"
                  placeholder="X"
+                 />
              </td>
           </tr>
           <tr>
@@ -77,9 +79,35 @@ Description: Homework 1 Patient Registration Form
                  required
                  title="Patient last name"
                  placeholder="Doe"
+                 />
+             </td>
+          </tr>
+          <tr>
+             <td class="td1"><label for="dob">Date of Birth:</label></td>
+             <td>
+                <input
+                 type="date"
+                 id="dob"
+                 name="dob"
+                 />
              </td>
           </tr>
 
+          <tr>
+             <td class="td1"><label for="ssn">Social Security Number:</label></td>
+             <td>
+                <input
+                 type="password"
+                 minlength="ll"
+                 maxlength="11"
+                 name="ssn"
+                 id="ssn"
+                 required
+                 title="Patient Social Security Number"
+                 placeholder="123-45-6789"
+                 />
+             </td>
+          </tr>
           <tr>
              <td class="td1"><label for="patientsex">Patient's Sex</label></td>
              <td>
@@ -108,6 +136,7 @@ Description: Homework 1 Patient Registration Form
                  Other
              </td>
           </tr>
+         
         </table>
       </div>
    </center>
