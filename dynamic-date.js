@@ -9,4 +9,4 @@ Description: Homework JavaScript
 
 const d = new Date();
 let text = d.toLocaleDateString();
-document.getElementById("today").innterHTML = text;
+document.getElementById("today").innerHTML = text;
