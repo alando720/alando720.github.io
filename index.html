@@ -322,8 +322,37 @@ Description: Homework 1 Patient Registration Form
 		  <tr>
 			  <td class="td1"><label for="patienthist">Check all that apply:</label></td>
 			  <td>
-				  <input type="checkbox" id="option1" value="illness"/>
-				  <label for="illness">Illness</label><br>
+				  <input type="checkbox" id="option1" value="HeartDiesease"/>
+				  <label for="HeartDisease">Heart Disease</label><br>
+
+				  <input type="checkbox" id="option2" value="Cancer"/>
+				  <label for="Cancer">Cancer</label><br>
+
+				  <input type="checkbox" id="option3" value="Diabetes"/>
+				  <label for="Diabetes">Diabetes</label><br>
+
+				  <input type="checkbox" id="option4" value="Alzheimers"/>
+				  <label for="Alzheimers">Alzheimers</label><br>
+
+				  <input type="checkbox" id="option5" value="NA"/>
+				  <label for="NA">None of The Above</label><br>
+			  </td>
+		  </tr>
+
+		  <tr>
+			  <td class="td1" align="right">
+			  	<label for="notes">Are there any concerns about your health?</label>
+			  </td>
+			  <td>
+				<textarea
+				rows="4"
+				cols="50"
+				maxlength="500"
+				id="notes"
+				name="notes"
+				title="Enter any concerns"
+				placeholder="Type Here"
+				></textarea>
 			  </td>
 		  </tr>
         </table>
