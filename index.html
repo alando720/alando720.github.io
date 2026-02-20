@@ -146,6 +146,7 @@ Description: Homework 1 Patient Registration Form
                  name="city"
                  id="city"
                  maxlength="30"
+				 required
                  title="Patient City"
                  placeholder="Houston"
                  />
@@ -215,17 +216,45 @@ Description: Homework 1 Patient Registration Form
              <td class=td1"><label for="zip">Zip Code</label></td>
              <td>
                 <input
-                 type="textdf"
+                 type="text"
                  name="zip"
                  id="zip"
                  maxlength="5"
+				 required
                  title="Patient Zipcode"
                  placeholder="77023"
                  />
              </td>
           </tr>
-          
-         
+          <tr>
+             <td class=td1"><label for="email">Email Address</label></td>
+             <td>
+                <input
+                 type="text"
+                 name="email"
+                 id="email"
+                 maxlength="50"
+		 		 required
+                 title="Patient Email Address"
+                 placeholder="jane.doe@gmail.com"
+                 />
+             </td>
+          </tr>
+		  <tr>
+             <td class=td1"><label for="phone">Phone Number</label></td>
+             <td>
+                <input
+                 type="text"
+                 name="phone"
+                 id="phone"
+                 maxlength="12"
+		 		 required
+                 title="Patient Phone Number"
+                 placeholder="123-456-7890"
+                 />
+             </td>
+          </tr>
+			
           <tr>
              <td class="td1"><label for="patientsex">Patient's Sex</label></td>
              <td>
