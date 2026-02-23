@@ -75,7 +75,7 @@ input {
   font-weight: normal;
 }
 
-#today {
+p {
   text-align: left;
   font-family: "Monaco", monospace;
   font-weight: normal;
