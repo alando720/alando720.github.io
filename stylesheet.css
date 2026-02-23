@@ -74,3 +74,9 @@ input {
   font-family: "Monaco", monospace;
   font-weight: normal;
 }
+
+#today {
+  text-align: left;
+  font-family: "Monaco", monospace;
+  font-weight: normal;
+}
