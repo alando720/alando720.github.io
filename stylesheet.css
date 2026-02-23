@@ -49,3 +49,28 @@ main {
   font-family: "Courier New", monospace;
   font-weight: bold;
 }
+
+footer {
+  position: flex; 
+  bottom: 0;
+  width: 100%; 
+  background-color: cadetblue;
+  height: 3.0 rem;
+}
+
+#footer {
+  font-family: "Monaco", monospace;
+  font-weight: normal;
+}
+
+label {
+  text-align: right;
+  font-family: "Monaco", monospace;
+  font-weight: normal;
+}
+
+input {
+  text-align: left;
+  font-family: "Monaco", monospace;
+  font-weight: normal;
+}
